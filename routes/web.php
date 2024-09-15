@@ -1,6 +1,9 @@
 <?php
 
+use App\Http\Controllers\PackageCheckingController;
 use Illuminate\Support\Facades\Route;
+
+// use SadekurRahman\Secure\Inspire;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +19,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+// packages route 
+Route::get('installer', [PackageCheckingController::class, 'installer'])->name('installer');

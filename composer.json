@@ -24,7 +24,8 @@
         "psr-4": {
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/"
+            "Database\\Seeders\\": "database/seeders/",
+            "SadekurRahman\\LaravelInstaller\\": "packages/sadekur-rahman/laravel-installer/src/"
         }
     },
     "autoload-dev": {
